@@ -14,7 +14,7 @@ app.secret_key = "very_secret_key_12345"
 
 # Dangerous import of Pickle
 def load_user_preferences(data):
-    return pickle.loads(data)  # Insecure deserializatio
+    return pickle.loads(data)  # Insecure deserialization
 
 # Python OS injection
 def run_command(command):
